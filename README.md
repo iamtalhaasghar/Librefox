@@ -216,8 +216,7 @@ Using Librefox simultaneously with Firefox is possilbe through a different profi
 - Make sure you have already installed latest version of Firefox using `apt`, `pacman`, `dnf`, `zypper` or whatever package manager you use.
 - Run the following commands in terminal to download and apply latest patch of **Librefox**
 ```
-wget https://raw.githubusercontent.com/iamtalhaasghar/Librefox/master/install.sh
-./install.sh
+wget https://raw.githubusercontent.com/iamtalhaasghar/Librefox/master/install-librefox.sh && sudo bash ./install-librefox.sh
 ```
 
 
