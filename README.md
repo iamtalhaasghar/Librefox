@@ -212,12 +212,14 @@ Using Librefox simultaneously with Firefox is possilbe through a different profi
 - Locate Firefox's installation directory (where the firefox.exe is located) `C:\Program Files\Mozilla Firefox\` or `C:\Program Files (x86)\Mozilla Firefox\` or `Tor-Install-Directory\Browser\`
 - Copy the extracted Librefox files to the install directory
 
-**Linux**
-- Download and extract the last version of Firefox [x32 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/linux-i686/en-US/firefox-64.0.tar.bz2) or [x64 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/linux-x86_64/en-US/firefox-64.0.tar.bz2)
-- Download [Librefox](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0.zip) zip file and extract it
-- Copy the extracted Librefox files to the newly downloaded `firefox` directory
-- You can use directly Librefox by running 'firefox/firefox'
-- You can as well create a shortcut to 'firefox/firefox' to open Librefox easily.
+**Linux** 
+- Make sure you have already installed latest version of Firefox using `apt`, `pacman`, `dnf`, `zypper` or whatever package manager you use.
+- Run the following commands in terminal to download and apply latest patch of **Librefox**
+```
+wget https://raw.githubusercontent.com/iamtalhaasghar/Librefox/master/install.sh
+./install.sh
+```
+
 
 **Mac**
 - Download and install the [last version of Firefox](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/mac/en-US/Firefox%2064.0.dmg)
